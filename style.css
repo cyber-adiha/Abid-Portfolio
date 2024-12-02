@@ -677,6 +677,35 @@ span{
 
 }
 
+@media (max-width : 480px) {
+
+    .timeline-content{
+        align-items: center;
+        padding: 30px 10px;
+        text-align: center;
+    }
+    .timeline-content h3 {
+        font-size: 1.6em;
+    }
+
+    .timeline-content p {
+        font-size: 1.3em;
+    }
+
+    .timeline-date {
+        font-size: 1.6em;
+    }
+
+    .heading2{
+        font-size: 5.5em;
+    }
+
+    .heading3{
+        font-size: 5.5em;
+    }
+    
+}
+
 footer {
     text-align: center;
     align-items: center;
