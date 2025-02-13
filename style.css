@@ -710,8 +710,10 @@ span{
     margin-bottom: 2em;
 }
 
-
-
+#current-time{
+    color: var(--main-color);
+    font-size: 2rem;
+}
 
 @media (max-width : 1285px) {
 
