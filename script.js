@@ -3,6 +3,13 @@ let navbar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navlinks = document.querySelectorAll('header nav a');
 
+let time = document.getElementById('current-time');
+
+setInterval(() => {
+    let d = new Date();
+    time.innerHTML = d.toLocaleTimeString();
+},1000)
+
 let lightmode = localStorage.getItem('lightmode');
 const themeSwitch = document.getElementById('theme-switch'); 
 
