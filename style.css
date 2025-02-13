@@ -712,8 +712,11 @@ span{
 
 #current-time{
     color: var(--main-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-top: 0.5em;
 }
+
+
 
 @media (max-width : 1285px) {
 
@@ -725,12 +728,14 @@ span{
         grid-template-columns: repeat(2,1fr);
         margin: 0.5rem;
     }
+
 }
 
 @media (max-width : 1090px) {
     section{
         min-height: 30vh;
     }
+    
 }
 
 @media (max-width : 991px) {
@@ -921,12 +926,13 @@ span{
 }
 
 footer {
-    text-align: center;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    z-index: 100;
     color: var(--text-color);
-    padding: 1em 0;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    padding: 1em 2em 1em 2em;
 }
 
 footer p{
@@ -973,5 +979,3 @@ footer p{
     visibility: hidden;
     transition: opacity 1s ease, visibility 1s ease;
 }
-
-
